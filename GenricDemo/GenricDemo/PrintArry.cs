@@ -6,22 +6,15 @@ namespace GenricDemo
 {
     public class PrintArry
     {
-        public void FirstArry(int[] first)
+        public void FirstArry<T>(T[] first)
         {
-            Array.ForEach(first, Console.WriteLine);
-            /*foreach (int item in first)
+
+            foreach (T item in first)
             {
                 Console.WriteLine(item);
 
-            }*/
+            }
         }
-        public void SecondArry(double[] second)
-        {
-            Array.ForEach(second, Console.WriteLine);
-        }
-        public void ThirdArry(char [] third)
-        {
-            Array.ForEach(third, Console.WriteLine);
-        }
+       
     }
 }

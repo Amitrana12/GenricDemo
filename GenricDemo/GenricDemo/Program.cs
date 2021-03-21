@@ -12,8 +12,8 @@ namespace GenricDemo
             Console.WriteLine("Wlecome to genric console app by amit rana");
             PrintArry obj = new PrintArry();
             obj.FirstArry(first);
-            obj.SecondArry(second);
-            obj.ThirdArry(third);
+            obj.FirstArry(second);
+            obj.FirstArry(third);
         }
        
     }
